@@ -1,14 +1,26 @@
+# Python
 venv/
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.env
-uploads/
-coursify.db
-*.db
-.DS_Store
 *.egg-info/
 dist/
 build/
 .pytest_cache/
+
+# Environnement
+.env
+
+# Base de données
+*.db
+coursify.db
+
+# Fichiers uploadés
+uploads/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
